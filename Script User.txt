@@ -1,0 +1,18 @@
+CREATE TABLE `user` (
+  `id` int(5) NOT NULL AUTO_INCREMENT,
+  `mail` varchar(100) NOT NULL,
+  `name` varchar(200) DEFAULT NULL,
+  `pass` varchar(10) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+INSERT INTO user (mail, name, pass ) VALUES ('pablo@example.com', 'pablo', '1234567');
+INSERT INTO user (mail, name, pass ) VALUES ('miguel@example.com', 'miguel', '98765');
+INSERT INTO user (mail, name, pass ) VALUES ('juan@example.com', 'juan', '11223344');
+INSERT INTO user (mail, name, pass ) VALUES ('mama@example.com', 'mama', '99887766');
+INSERT INTO user (mail, name, pass ) VALUES ('tio@example.com', 'tio', '01918181');
+INSERT INTO user (mail, name, pass ) VALUES ('pedro@example.com', 'pedro', 'edw33');
+INSERT INTO user (mail, name, pass ) VALUES ('sara@example.com', 'sara', '2w3e4r');
+INSERT INTO user (mail, name, pass ) VALUES ('andrea@example.com', 'andrea', '9i8u7y6');
+INSERT INTO user (mail, name, pass ) VALUES ('marta@example.com', 'marta', '3edcff');
+INSERT INTO user (mail, name, pass ) VALUES ('josue@example.com', 'josue', '8u7y6t');
